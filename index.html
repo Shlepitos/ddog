@@ -13,12 +13,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parallax Landing Page</title>
+    <title>Parallax Landing with Scroll Snap</title>
     <style>
         * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+        }
+
+        html {
+            scroll-snap-type: y mandatory; /* Включаем прилипание по оси Y */
+            scroll-behavior: smooth; /* Плавная прокрутка */
         }
 
         body {
@@ -34,6 +39,7 @@
             justify-content: center;
             text-align: center;
             position: relative;
+            scroll-snap-align: start; /* Каждая секция прилипает к началу вьюпорта */
         }
 
         .parallax {
@@ -78,7 +84,7 @@
 
         @media (max-width: 768px) {
             .parallax {
-                background-attachment: scroll; /* Отключаем fixed на мобильных для лучшей производительности */
+                background-attachment: scroll; /* Отключаем fixed на мобильных */
             }
 
             h1, h2 {
@@ -87,6 +93,10 @@
 
             p {
                 font-size: 1rem;
+            }
+
+            html {
+                scroll-snap-type: none; /* Отключаем прилипание на мобильных для плавности */
             }
         }
     </style>

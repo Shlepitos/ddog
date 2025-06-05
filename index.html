@@ -76,6 +76,26 @@
             margin: 20px auto;
         }
 
+        .button-container {
+            margin-top: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
         .content {
             background: rgba(0, 0, 0, 0.5);
             padding: 20px;
@@ -97,6 +117,11 @@
 
             html {
                 scroll-snap-type: none; /* Отключаем прилипание на мобильных для плавности */
+            }
+
+         .button {
+                padding: 8px 16px;
+                font-size: 0.9rem;
             }
         }
     </style>
@@ -122,8 +147,12 @@
     </div>
     <div class="section parallax section-1">
         <div class="content">
-        <h2>Contact Us</h2>
-        <p>Reach out to us for more information or collaboration.</p>
+        <h2>Присоединиться к нам</h2>
+            <div class="button-container">
+                <a href="https://t.me/ddog_news" class="button">Наш канал</a>
+                <a href="https://t.me/ddogchat_ru" class="button">Наш чат</a>
+                <a href="https://t.me/ddogmemes" class="button">Наши мемы</a>
+            </div>
         </div>
     </div>
 </body>

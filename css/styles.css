@@ -14,7 +14,7 @@
             font-family: Arial, sans-serif;
             color: #fff;
             line-height: 1.6;
-            cursor: url('media/cursor2.png'), auto;
+            cursor: url("/media/cursor2.png"), auto;
         }
 
         .section {
@@ -35,7 +35,7 @@
         }
 
         .section-1 {
-            background-image: url('media/backgr.png');
+            background-image: url("/media/backgr.png");
             width: 100%;
             height: 100vh;
         }
@@ -45,7 +45,7 @@
         }
 
         .section-3 {
-            background-image: url('media/backgr.png');
+            background-image: url("/media/backgr.png");
         }
 
         .section-4 {
@@ -81,7 +81,7 @@
 
         .button:hover {
             background-color: #AA1706; /* #0056b3 */
-            cursor: url('media/cursor2.png'), pointer;
+            cursor: url("/media/cursor2.png"), pointer;
         }
 
 	.button2 {
@@ -98,7 +98,7 @@
 
 	.button2:hover {
             background-color: #AA1706; /* #0056b3 */
-            cursor: url('media/cursor2.png'), pointer;
+            cursor: url("/media/cursor2.png"), pointer;
         }
 
         .content {
@@ -116,7 +116,7 @@
 
         @media (max-width: 768px) {
             .section-1 {
-                background: url('media/backgr-mobile2.png') no-repeat center/cover;
+                background: url("/media/backgr-mobile2.png") no-repeat center/cover;
                 width: 100%;
                 height: 100vh;
             }

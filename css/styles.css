@@ -14,7 +14,7 @@
             font-family: Arial, sans-serif;
             color: #fff;
             line-height: 1.6;
-            cursor: url("/media/cursor2.png"), auto;
+            cursor: url("/media/cur1.png"), auto;
         }
 
         .section {
@@ -58,7 +58,7 @@
         }
 
 	a:hover {
-		cursor: url("/media/cursor2.png"), pointer;
+		cursor: url("/media/cur2.png"), pointer;
 	}
 
         p {
@@ -85,7 +85,7 @@
 
         .button:hover {
             background-color: #AA1706; /* #0056b3 */
-            cursor: url("/media/cursor2.png"), pointer;
+            cursor: url("/media/cur2.png"), pointer;
         }
 
 	.button2 {
@@ -102,7 +102,7 @@
 
 	.button2:hover {
             background-color: #AA1706; /* #0056b3 */
-            cursor: url("/media/cursor2.png"), pointer;
+            cursor: url("/media/cur2.png"), pointer;
         }
 
         .content {

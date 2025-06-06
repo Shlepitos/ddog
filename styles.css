@@ -70,7 +70,7 @@
             display: inline-block;
             padding: 10px 20px;
             margin: 10px;
-            background-color: c60900;
+            background-color: #007bff;
             color: #fff;
             text-decoration: none;
             border-radius: 5px;
@@ -79,7 +79,7 @@
         }
 
         .button:hover {
-            background-color: 8e0700;
+            background-color: #0056b3;
             cursor: url('cursor.png'), pointer;
         }
 
